@@ -1,0 +1,134 @@
+/*
+Theme Name:   WorkScout Child
+Theme URI: http://workscout.in
+Author: Purethemes
+Author URI: http://themeforest.net/user/purethemes
+Description: WordPress Job Theme
+Version: 1.0
+License: ThemeForest
+License URI: http://themeforest.net/licenses
+Text Domain: workscout
+Domain Path: /languages/
+Tags: light, responsive-layout, post-formats, theme-options, translation-ready, two-columns
+Template:  workscout
+*/
+
+
+/* Colours
+------------------------------------- */
+:root {
+    --primary: #4A70F2;
+    --secondary: #FF5A55;
+    --tertiary: #FBC700;
+    --dark: #;
+    --graylight: #fff;
+    --graylighter: #e2e2e2;
+    --graylighest: #EFF1F5;
+    --graydark: #081E38;
+    --white: #fdfdfd;
+}
+
+
+/* Styling
+------------------------------------- */
+#titlebar {
+    background-color: var(--graylighest);
+}
+
+ul.float-right li a {
+    background-color: var(--graylighest);
+}
+
+.valueprop {
+    background-color: var(--graylighest);
+}
+
+/* Header & navigation
+------------------------------------- */
+/*#wrapper {
+    background-color:rgba(0,0,0,0.04);
+}*/
+
+header#main-header {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.clearfix {
+    background-color: var(--graylight);
+}
+
+#navigation ul.float-right {
+    border-top: none;
+}
+
+
+/* Landingpage wrapper
+------------------------------------- */
+/* .woocommerce-MyAccount-content, .bgstyle {
+    background-color: white;
+    padding: 40px;
+    background-color: var(--white);
+    border: 1px solid var(--graylighter);
+    padding: 32px;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;       
+}*/
+
+.textlink {
+    color: var(--primary);
+    font-style: bold;
+}
+
+a.textlink:hover {
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+/* Landingpage wrapper
+------------------------------------- */
+#lp-wrapper {
+    padding: 64px 0px 16px 0px;
+    text-align: center;
+    background-color: none;
+}
+
+#lp-wrapper h1 {
+    font-size: 2.4em;
+    line-height: 1em;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+#lp-wrapper p {
+    font-size: 1.2em;
+    margin-bottom: 32px;
+}
+
+#lp-wrapper a.button {
+    font-size: 1em;
+}
+
+#lp-wrapper a.button:hover {
+    background-color: var(--graydark);
+}
+
+.whitebg {
+    background-color: white;
+    padding: 24px;
+    background-color: #fdfdfd;
+    border: 1px solid #e2e2e2;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box;
+}
+
+/* My account content
+------------------------------------- */
+.post-content table tr td, article.page table tr td, table.shop_table tr td, table.manage-table tr td {
+    padding: 12px;
+}
+
+table.manage-table.resumes td:first-child, table.manage-table td:first-child {
+    padding-left: 24px;
+}
